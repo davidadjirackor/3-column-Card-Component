@@ -1,0 +1,219 @@
+
+
+body{
+  background-color: hsl(0, 0%, 95%);
+  font-family: sans-serif;
+}
+@media only screen and (min-width: 375px){
+
+.main-container{
+  display: flex;
+  max-width: 1000px;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 10px;
+  overflow:hidden;
+  
+}
+
+.sedans-card{
+  width: 32%;
+  height: 100%;
+  display: block;
+  padding: 4%;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  
+}
+
+.suv-card{
+  width: 32%;
+  height: 100%;
+  display: block;
+  padding: 4%;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+
+.luxury-card{
+  width: 32%;
+  height: 100%;
+  display: block;
+  padding: 4%;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+
+
+.sedans-cta button{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 15px;
+  color: hsl(31, 77%, 52%);
+}
+
+.sedans-cta button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.suv-cta button{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 15px;
+  color: hsl(184, 100%, 22%);
+}
+
+.suv-cta button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.luxury-cta button{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 15px;
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury-cta button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.content{
+  margin-bottom: 100px;
+}
+
+.header{
+  margin: 30px 0 50px 0;
+}
+}
+
+/*Phones */
+@media only screen and (max-width: 375px){
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 10px;
+  overflow:hidden;
+  
+}
+
+.sedans-card{
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  
+  
+}
+
+.suv-card{
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  
+}
+
+.luxury-card{
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+
+
+.sedans-cta button{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 40%;
+  font-weight: bold;
+  font-size: 12px;
+  color: hsl(31, 77%, 52%);
+  margin-bottom: 20px;
+}
+
+.sedans-cta button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.suv-cta button{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 40%;
+  font-weight: bold;
+  font-size: 12px;
+  color: hsl(184, 100%, 22%);
+  margin-bottom: 20px;
+}
+
+.suv-cta button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.luxury-cta button{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 40%;
+  font-weight: bold;
+  font-size: 12px;
+  color: hsl(179, 100%, 13%);
+  margin-bottom: 20px;
+}
+
+.luxury-cta button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+
+.header{
+  margin: 30px 0 ;
+}
+  .content{
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
